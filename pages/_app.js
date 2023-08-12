@@ -6,7 +6,8 @@ import {
     Footer, 
     HeroSection, 
     Service,
-    BigNFTSlider
+    BigNFTSlider,
+    Subscribe
 } from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
@@ -17,6 +18,7 @@ const MyApp = ({ Component, pageProps })=> (
         <HeroSection />
         <Service />
         <BigNFTSlider />
+        <Subscribe />
     </div>
 );
 
