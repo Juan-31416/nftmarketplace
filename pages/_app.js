@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 
 //INTERNAL IMPORT
-import {NavBar, Footer, HeroSection} from "../components/Components_index";
+import {NavBar, Footer, HeroSection, Service} from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
     <div>
@@ -9,6 +9,7 @@ const MyApp = ({ Component, pageProps })=> (
         <Component {...pageProps} />
         <Footer />
         <HeroSection />
+        <Service />
     </div>
 );
 
