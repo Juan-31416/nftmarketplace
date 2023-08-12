@@ -7,7 +7,8 @@ import {
     HeroSection, 
     Service,
     BigNFTSlider,
-    Subscribe
+    Subscribe,
+    Title
 } from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
@@ -19,6 +20,7 @@ const MyApp = ({ Component, pageProps })=> (
         <Service />
         <BigNFTSlider />
         <Subscribe />
+        <Title />
     </div>
 );
 
