@@ -9,7 +9,8 @@ import {
     BigNFTSlider,
     Subscribe,
     Title,
-    Category
+    Category,
+    Filter
 } from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
@@ -23,6 +24,7 @@ const MyApp = ({ Component, pageProps })=> (
         <Subscribe />
         <Title />
         <Category />
+        <Filter />
     </div>
 );
 

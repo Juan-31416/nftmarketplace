@@ -7,6 +7,7 @@ import BigNFTSlider from "./BigNFTSlider/BigNFTSlider";
 import Service from "./Service/Service";
 import Title from "./Title/Title";
 import Category from "./Category/Category";
+import Filter from "./Filter/Filter";
 
 export{ 
     Button, 
@@ -16,5 +17,6 @@ export{
     Service, 
     BigNFTSlider, 
     Title,
-    Category
+    Category,
+    Filter
 };
