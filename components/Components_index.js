@@ -6,5 +6,15 @@ import Service from "./Service/Service";
 import BigNFTSlider from "./BigNFTSlider/BigNFTSlider";
 import Service from "./Service/Service";
 import Title from "./Title/Title";
+import Category from "./Category/Category";
 
-export{ Button, Footer, NavBar, HeroSection, Service, BigNFTSlider};
+export{ 
+    Button, 
+    Footer, 
+    NavBar, 
+    HeroSection, 
+    Service, 
+    BigNFTSlider, 
+    Title,
+    Category
+};

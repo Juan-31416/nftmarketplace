@@ -8,7 +8,8 @@ import {
     Service,
     BigNFTSlider,
     Subscribe,
-    Title
+    Title,
+    Category
 } from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
@@ -21,6 +22,7 @@ const MyApp = ({ Component, pageProps })=> (
         <BigNFTSlider />
         <Subscribe />
         <Title />
+        <Category />
     </div>
 );
 
