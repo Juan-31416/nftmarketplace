@@ -8,6 +8,7 @@ import Service from "./Service/Service";
 import Title from "./Title/Title";
 import Category from "./Category/Category";
 import Filter from "./Filter/Filter";
+import NFTCard from "./NFTCard/NFTCard"
 
 export{ 
     Button, 
@@ -18,5 +19,6 @@ export{
     BigNFTSlider, 
     Title,
     Category,
-    Filter
+    Filter,
+    NFTCard
 };

@@ -10,7 +10,8 @@ import {
     Subscribe,
     Title,
     Category,
-    Filter
+    Filter,
+    NFTCard
 } from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
@@ -25,6 +26,7 @@ const MyApp = ({ Component, pageProps })=> (
         <Title />
         <Category />
         <Filter />
+        <NFTCard />
     </div>
 );
 
