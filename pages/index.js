@@ -10,7 +10,8 @@ import {
   Title,
   Category,
   Filter,
-  NFTCard
+  NFTCard,
+  Collection
 } from "../components/Components_index";
 
 const Home = () => {
@@ -21,6 +22,11 @@ const Home = () => {
       <BigNFTSlider />
       <Title
         heading="New Collection"
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+      />
+      <Collection />
+      <Title 
+        heading="Featured NFTs"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
       <Filter />

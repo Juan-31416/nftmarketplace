@@ -11,14 +11,6 @@ const MyApp = ({ Component, pageProps })=> (
         <NavBar />
         <Component {...pageProps} />
         <Footer />
-        <HeroSection />
-        <Service />
-        <BigNFTSlider />
-        <Subscribe />
-        <Title />
-        <Category />
-        <Filter />
-        <NFTCard />
     </div>
 );
 
