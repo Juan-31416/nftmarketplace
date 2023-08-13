@@ -3,15 +3,7 @@ import '@/styles/globals.css';
 //INTERNAL IMPORT
 import {
     NavBar, 
-    Footer, 
-    HeroSection, 
-    Service,
-    BigNFTSlider,
-    Subscribe,
-    Title,
-    Category,
-    Filter,
-    NFTCard
+    Footer
 } from "../components/Components_index";
 
 const MyApp = ({ Component, pageProps })=> (
