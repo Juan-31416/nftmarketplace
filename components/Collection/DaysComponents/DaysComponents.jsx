@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { MdVerified} from "react-icon/md";
+import { MdVerified} from "react-icons/md";
 
 //INTERNAL IMPORT
-import Style from "DaysCollection.module.css";
+import Style from "./DaysComponents.module.css";
 import images from "../../../img";
 
 const DaysComponents = () =>{

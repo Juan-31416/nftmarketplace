@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 import { 
     BsFillAlarmFill,
     BsFillCallendarDateFill, 
-    BsCallendar3
+    BsCallendar3,
 } from "react-icons/bs";
 
 //IMTERNAL IMPORT

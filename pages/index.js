@@ -11,7 +11,7 @@ import {
   Category,
   Filter,
   NFTCard,
-  Collection
+  Collection,
 } from "../components/Components_index";
 
 const Home = () => {

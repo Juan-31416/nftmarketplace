@@ -3,7 +3,7 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "./HeroSection.module.css";
-import { Button } from "../componentsindex";
+import { Button } from "../Components_index";
 import images from "../../img";
 
 const HeroSection = () => {

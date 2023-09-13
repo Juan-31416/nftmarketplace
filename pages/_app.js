@@ -6,7 +6,7 @@ import {
     Footer
 } from "../components/Components_index";
 
-const MyApp = ({ Component, pageProps })=> (
+const MyApp = ({ Component, pageProps }) => (
     <div>
         <NavBar />
         <Component {...pageProps} />
