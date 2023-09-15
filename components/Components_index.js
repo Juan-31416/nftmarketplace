@@ -23,5 +23,5 @@ export{
     Category,
     Filter,
     NFTCard,
-    Collection
+    Collection,
 };

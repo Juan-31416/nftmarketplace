@@ -7,7 +7,7 @@ import { TbArrowBigLeftLines, TbArrowBigRightLines } from "react-icons/tb";
 //INTERNAL IMPORTS
 import Style from "./BigNFTSlider.module.css";
 import images from "../../img";
-import { Button } from "../Components_index";
+import Button from "../Button/Button";
 
 
 const BigNFTSlider = () => {
@@ -17,7 +17,7 @@ const BigNFTSlider = () => {
         {
             title: "Hello NFT",
             id: 1,
-            name: "Juan Pablo Mart�n",
+            name: "Juan Pablo Martin",
             collection: "Car",
             price: "00664 ETH",
             like: 243,
@@ -33,7 +33,7 @@ const BigNFTSlider = () => {
         {
             title: "Buddy NFT",
             id: 2,
-            name: "Carlos �lvarez",
+            name: "Carlos Alvarez",
             collection: "Sport",
             price: "00005 ETH",
             like: 205,
@@ -65,7 +65,7 @@ const BigNFTSlider = () => {
         {
             title: "Sport NFT",
             id: 4,
-            name: "Carlos �lvarez",
+            name: "Carlos Alvarez",
             collection: "Sport",
             price: "0955 ETH",
             like: 602,
