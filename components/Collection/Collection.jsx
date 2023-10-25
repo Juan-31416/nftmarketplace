@@ -35,7 +35,7 @@ const Collection = () => {
             setPopular(false);
             setFollowing(false);
             setNews(true);
-        } 
+        }
     };
 
     const CardArray = [1, 2, 3, 4, 5, 6, 7, 8];
